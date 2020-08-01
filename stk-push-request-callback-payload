@@ -1,24 +1,30 @@
-	
-{ "Body":
-       { 
-            "stkCallback":{ 
-                "MerchantRequestID": "15578-16590447-1",
-                "CheckoutRequestID": "ws_CO_010820202127420966",
-                "ResultCode": "0",
-                "ResultDesc": "0"
-            } ,
-           "CallbackMetadata":  {
-            "Item": [
-                    { "Name":"Amount", "Value":10 },
-                    { "Name":"MpesaReceiptNumber",    "Value":"MRLSJHDH9" },
-                    { "Name":"balance",    "Value":"1000" },
-                    { "Name":"b2CUtilityAccountAvailableFunds",    "Value":"1000" },
-                    { "Name":"transactionDate",    "Value":"vuala" },
-                    { "Name":"phoneNumber",    "Value":"25472000000" }
-
-            ]
-
-         }
-       }
-
-} 
+{
+    "Body": {
+        "stkCallback": {
+            "MerchantRequestID": "30524-17451357-1",
+            "CheckoutRequestID": "ws_CO_020820200000409236",
+            "ResultCode": 0,
+            "ResultDesc": "The service request is processed successfully.",
+            "CallbackMetadata": {
+                "Item": [
+                    {
+                        "Name": "Amount",
+                        "Value": 1.00
+                    },
+                    {
+                        "Name": "MpesaReceiptNumber",
+                        "Value": "OH219D9MN5"
+                    },
+                    {
+                        "Name": "TransactionDate",
+                        "Value": 20200802000051
+                    },
+                    {
+                        "Name": "PhoneNumber",
+                        "Value": 254708374149
+                    }
+                ]
+            }
+        }
+    }
+}
