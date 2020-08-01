@@ -1,0 +1,24 @@
+	
+{ "Body":
+       { 
+            "stkCallback":{ 
+                "MerchantRequestID": "15578-16590447-1",
+                "CheckoutRequestID": "ws_CO_010820202127420966",
+                "ResultCode": "0",
+                "ResultDesc": "0"
+            } ,
+           "CallbackMetadata":  {
+            "Item": [
+                    { "Name":"Amount", "Value":10 },
+                    { "Name":"MpesaReceiptNumber",    "Value":"MRLSJHDH9" },
+                    { "Name":"balance",    "Value":"1000" },
+                    { "Name":"b2CUtilityAccountAvailableFunds",    "Value":"1000" },
+                    { "Name":"transactionDate",    "Value":"vuala" },
+                    { "Name":"phoneNumber",    "Value":"25472000000" }
+
+            ]
+
+         }
+       }
+
+} 
